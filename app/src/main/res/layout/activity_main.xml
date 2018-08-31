@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/white_purple_backgrnd">
+
+
+    <Button
+        android:id="@+id/register"
+        style="@android:style/Widget.Button"
+        android:layout_width="199dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp"
+        android:background="#a8207f"
+        android:lineSpacingExtra="10sp"
+        android:text="already member"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btnowner"
+        style="@android:style/Widget.Button"
+        android:layout_width="202dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:background="#a8207f"
+        android:lineSpacingExtra="10sp"
+        android:text="Hire Driver"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btndriver"
+        style="@android:style/Widget.Button"
+        android:layout_width="202dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:background="#a8207f"
+        android:lineSpacingExtra="10sp"
+        android:text="Hire Me"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="338dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>

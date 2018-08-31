@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".DriverLogin"
+    android:background="@drawable/white_purple_backgrnd"
+    android:id="@+id/relative_own">
+
+
+    <TextView
+        android:id="@+id/Dri_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Register As Hirer"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#a8207f"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dri_name3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignStart="@+id/dri_name2"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="-10dp"
+        android:text="Mother's Name : "
+        android:textColor="#a8207f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dri_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dri_name"
+        android:layout_below="@+id/editText"
+        android:text="Father's Name : "
+        android:textColor="#a8207f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dri_name2"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="96dp"
+        android:layout_toStartOf="@+id/Dri_reg"
+        android:text="Name : "
+        android:textColor="#a8207f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dri_name2"
+        android:layout_alignStart="@+id/Dri_reg"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dri_name3"
+        android:layout_toEndOf="@+id/dri_name3"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText2"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_marginEnd="-44dp"
+        android:layout_toStartOf="@+id/Dri_reg"
+        android:text="Adrress :"
+        android:textColor="#a8207f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="273dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText5"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dri_name3"
+        android:layout_centerVertical="true"
+        android:text="Date Of Birth :"
+        android:textColor="#a8207f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText7"
+        android:layout_toStartOf="@+id/Dri_reg"
+        android:text="NID :"
+        android:textColor="#a8207f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="307dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/Dri_reg"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginStart="-13dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btndone_own"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="#a8207f"
+        android:text="Done"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
