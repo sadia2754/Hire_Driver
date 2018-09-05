@@ -9,62 +9,65 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context=".DriverLogin"
+    tools:context=".PostAddPage"
     android:background="@drawable/white_purple_backgrnd"
-    android:id="@+id/relative_driv" >
+    android:id="@+id/relative_own">
 
 
     <Button
-        android:id="@+id/btndone_driv"
+        android:id="@+id/btndone_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="87dp"
+        android:layout_marginEnd="133dp"
         android:background="#a8207f"
-        android:text="Register"
+        android:text="Done"
         android:textColor="@android:color/background_light" />
 
     <EditText
-        android:id="@+id/emailtxt"
-        android:layout_width="294dp"
+        android:id="@+id/F_name_add"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="30dp"
-        android:layout_marginTop="194dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Email" />
+        android:text="Father's Name" />
 
     <EditText
-        android:id="@+id/passtxt"
-        android:layout_width="294dp"
+        android:id="@+id/M_name_add"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/emailtxt"
-        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Password" />
+        android:text="Mothers Name" />
 
     <EditText
-        android:id="@+id/conpasstxt"
-        android:layout_width="294dp"
+        android:id="@+id/nid_add"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="189dp"
+        android:layout_marginBottom="229dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Confirm Password " />
+        android:text="NID" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="338dp"
-        android:layout_height="123dp"
+    <EditText
+        android:id="@+id/name_add"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        app:srcCompat="@drawable/logo" />
+        android:layout_marginTop="105dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
 </RelativeLayout>

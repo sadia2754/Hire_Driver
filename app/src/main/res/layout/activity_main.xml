@@ -14,9 +14,9 @@
 
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/regmember"
         style="@android:style/Widget.Button"
-        android:layout_width="199dp"
+        android:layout_width="202dp"
         android:layout_height="73dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

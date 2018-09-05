@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         btndrivreg = (Button) findViewById(R.id.btndriver);
         btnownreg = (Button) findViewById(R.id.btnowner);
-        btnmember = (Button) findViewById(R.id.register);
+        btnmember = (Button) findViewById(R.id.regmember);
         btndrivreg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 openMemberReg();
             }
         });
+
+
     }
 
     public void openDriverLogin(){

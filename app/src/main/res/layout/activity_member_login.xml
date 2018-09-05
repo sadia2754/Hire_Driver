@@ -4,29 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MemberLogin">
+    tools:context=".MemberLogin"
+    android:background="@drawable/white_purple_backgrnd">
 
     <Button
-        android:id="@+id/btnhome_mem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/btnnext_mem"
-        android:layout_marginStart="80dp"
-        android:background="#a8207f"
-        android:text="Home"
-        android:textColor="@android:color/background_light" />
-
-    <Button
-        android:id="@+id/btnnext_mem"
+        android:id="@+id/btnlogin_mem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginEnd="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
         android:background="#a8207f"
-        android:text="Next"
+        android:text="LOGIN"
         android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/usrnametxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/passwrdtxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="229dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/frget_passwrd"
+        android:layout_width="119dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="187dp"
+        android:layout_toEndOf="@+id/btnlogin_mem"
+        android:background="#a8207f"
+        android:text="Forget Password"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="338dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/logo" />
 
 </RelativeLayout>

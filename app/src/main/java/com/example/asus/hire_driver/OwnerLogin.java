@@ -35,8 +35,8 @@ public class OwnerLogin extends AppCompatActivity {
                 layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(LAYOUT_INFLATER_SERVICE);
                 ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.own_pop,null);
 
-                popupWindow = new PopupWindow(container,400,400,true);
-                popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY,200,500);
+                popupWindow = new PopupWindow(container,800,400,true);
+                popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY,200,1300);
 
                 container.setOnTouchListener(new View.OnTouchListener() {
                     @Override

@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".DriverLogin" />
         <activity android:name=".OwnerLogin" />
-        <activity android:name=".MemberLogin"></activity>
+        <activity android:name=".MemberLogin" />
+        <activity android:name=".AddPage" />
+        <activity android:name=".PostAddPage"></activity>
     </application>
 
 </manifest>
