@@ -23,4 +23,8 @@
         <activity android:name=".PostAddPage"></activity>
     </application>
 
+
+
+    //comitted by sadia
+
 </manifest>
