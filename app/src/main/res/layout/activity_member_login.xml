@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="98dp"
-        android:background="#a8207f"
+        android:background="#a8207e"
         android:text="LOGIN"
         android:textColor="@android:color/background_light" />
 
